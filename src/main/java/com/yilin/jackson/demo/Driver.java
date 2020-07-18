@@ -15,12 +15,10 @@ public class Driver {
 			// read JSON  file and map/convert to Java POJO: 
 			// data/sample-lite.json
 			
-			Student theStudent = mapper.readValue(
-						new File("data/sample-lite.json"), Student.class);
+			Student theStudent = mapper.readValue(new File("data/sample-full.json"), Student.class);
 			
 			// print first name and last name
-			System.out.println("First name = " + theStudent.getFirstName());
-			System.out.println("Last name = " + theStudent.getLastName());
+			System.out.println(theStudent);
 
 		}
 		catch (Exception exc) {
