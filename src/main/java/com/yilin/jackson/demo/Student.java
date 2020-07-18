@@ -1,18 +1,11 @@
 package com.yilin.jackson.demo;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Student {
-
-
-	/**
-	 * id : 14
-	 * firstName : Mario
-	 * lastName : Rossi
-	 * active : true
-	 * address : {"street":"100 Main St","city":"Philadelphia","state":"Pennsylvania","zip":"19103","country":"USA"}
-	 * languages : ["Java","C#","Python","Javascript"]
-	 */
 
 	private int id;
 	private String firstName;
