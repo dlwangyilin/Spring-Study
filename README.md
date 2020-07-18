@@ -1,4 +1,4 @@
 # Spring-Study
-Record what's learned in Spring, Spring MVC, Spring Security and so on.
+Record what was learned in Spring, Spring MVC, Spring Security and so on.
  
- A thing should be done a long time ago.
+A thing should be done a long time ago. Try to recall as much as possible.
