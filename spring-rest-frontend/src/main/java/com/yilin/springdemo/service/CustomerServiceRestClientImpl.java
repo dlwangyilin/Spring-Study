@@ -20,7 +20,7 @@ public class CustomerServiceRestClientImpl implements CustomerService {
 
 	private String crmRestUrl;
 		
-	private Logger logger = Logger.getLogger(getClass().getName());
+	private Logger logger = Logger.getLogger(getClass().getSimpleName());
 	
 	@Autowired
 	public CustomerServiceRestClientImpl(RestTemplate theRestTemplate, 
