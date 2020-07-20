@@ -1,8 +1,8 @@
-package com.yilin.springrest.dao;
+package com.yilin.springdemo.dao;
 
 import java.util.List;
 
-import com.yilin.springrest.entity.Customer;
+import com.yilin.springdemo.entity.Customer;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;

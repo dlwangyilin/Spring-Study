@@ -1,4 +1,4 @@
-package com.yilin.springrest.config;
+package com.yilin.springdemo.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

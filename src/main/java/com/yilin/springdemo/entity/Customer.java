@@ -1,4 +1,4 @@
-package com.yilin.springrest.entity;
+package com.yilin.springdemo.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

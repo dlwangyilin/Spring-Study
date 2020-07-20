@@ -1,10 +1,10 @@
-package com.yilin.springrest.service;
+package com.yilin.springdemo.dao;
 
 import java.util.List;
 
-import com.yilin.springrest.entity.Customer;
+import com.yilin.springdemo.entity.Customer;
 
-public interface CustomerService {
+public interface CustomerDAO {
 
 	List<Customer> getCustomers();
 
