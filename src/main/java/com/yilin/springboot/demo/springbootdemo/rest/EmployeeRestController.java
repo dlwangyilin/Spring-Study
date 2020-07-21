@@ -1,6 +1,5 @@
 package com.yilin.springboot.demo.springbootdemo.rest;
 
-import com.yilin.springboot.demo.springbootdemo.dao.EmployeeDAO;
 import com.yilin.springboot.demo.springbootdemo.entity.Employee;
 import com.yilin.springboot.demo.springbootdemo.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
