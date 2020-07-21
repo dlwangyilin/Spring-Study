@@ -1,10 +1,10 @@
-package com.yilin.springboot.demo.springbootdemo.dao;
+package com.yilin.springboot.demo.springbootdemo.service;
 
 import com.yilin.springboot.demo.springbootdemo.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
 
     List<Employee> findAll();
     Employee findById(int id);
