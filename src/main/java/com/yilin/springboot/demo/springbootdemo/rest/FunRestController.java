@@ -15,13 +15,4 @@ public class FunRestController {
         return "Hello word on " + LocalDateTime.now();
     }
 
-    @GetMapping("/workout")
-    public String getDailyWorkout() {
-        return "Run a hard 5k";
-    }
-
-    @GetMapping("/fortune")
-    public String getDailyFortune() {
-        return "Good Luck";
-    }
 }
